@@ -20,8 +20,8 @@ def compare_focus(image1_path, image2_path):
     focus_percentage2 = (focus2 / total_pixels) * 100
 
     return focus_percentage1, focus_percentage2
-image1_path = 'path/to/image1.jpg'
-image2_path = 'path/to/image2.jpg'
+image1_path = '/home/st-001/Documents/2.jpg'
+image2_path = '/home/st-001/Documents/1.jpg'
 focus_percentage1, focus_percentage2 = compare_focus(image1_path, image2_path)
 print(f"Focus percentage for image1: {focus_percentage1}%")
 print(f"Focus percentage for image2: {focus_percentage2}%")
